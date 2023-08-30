@@ -180,6 +180,8 @@ svg:hover {
     font-size: 18px;
     padding-bottom: 2rem;
     color: var(--letter-one);
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .home-div3 {
@@ -245,7 +247,7 @@ svg:hover {
 .staff-ul {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
