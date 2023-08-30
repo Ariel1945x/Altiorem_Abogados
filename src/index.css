@@ -223,7 +223,7 @@ svg:hover {
     width: 400px;
     height: 300px;
     object-fit: cover;
-    animation: slide 5s linear infinite alternate;
+    animation: slide 15s linear infinite alternate;
 }
 
 @keyframes slide {
@@ -231,7 +231,7 @@ svg:hover {
         transform: translateX(0); 
     }
     50%{
-        transform: translateX(-100%);
+        transform: translateX(-400%);
     }
 }
 
@@ -480,6 +480,23 @@ hr {
         width: 600px;
     }
 
+    .home_sec2-img {
+        flex: 1 0 auto;
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        animation: slide 5s linear infinite alternate;
+    }
+    
+    @keyframes slide {
+        0%, 100% {
+            transform: translateX(0); 
+        }
+        50%{
+            transform: translateX(-100%);
+        }
+    }
+
     .staff-ul {
         display: grid;
         justify-content: center;
@@ -551,6 +568,23 @@ hr {
 
     hr{
         width: 1200px;
+    }
+
+    .home_sec2-img {
+        flex: 1 0 auto;
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        animation: slide 5s linear infinite alternate;
+    }
+    
+    @keyframes slide {
+        0%, 100% {
+            transform: translateX(0); 
+        }
+        50%{
+            transform: translateX(-100%);
+        }
     }
 
     .staff-ul {
