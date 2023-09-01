@@ -26,7 +26,7 @@ const lawyers = {
             id: 4,
             name: "Dr. Mateo José Ortega Campuzano ",
             info: `Abogado por la Universidad de las Américas, Magíster en Derecho de asesoría a la empresa por la Universidad Andina Simón Bolívar con 8 años de práctica en derecho Financiero y bancario, propiedad intelectual, derecho societario, contratación pública, derecho laboral, derecho administrativo.`,
-            img: ""
+            img: "/img/abo1-removebg-preview.png"
         }
     ]
 }

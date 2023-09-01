@@ -10,10 +10,14 @@ const Staff = () => {
                 {
                     abg.map(abogado => (
                         <li className="staff-li" key={abogado.id}>
-                            <h2 className="staff-h2">{abogado.name}</h2>
-                            <hr className="staff-hr"/>
-                            <img className="staff-img" src={abogado.img} />
-                            <p className="staff-p">{abogado.info}</p>
+                            <div className="staff-div1">
+                                <img className="staff-img" src={abogado.img}/>
+                            </div>
+                            <div className="staff-div2">
+                                <h2 className="staff-h2">{abogado.name}</h2>
+                                <hr className="staff-hr"/>
+                                <p className="staff-p">{abogado.info}</p>
+                            </div>
                         </li>
                     ))
                 }
