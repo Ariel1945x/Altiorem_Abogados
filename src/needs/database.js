@@ -8,7 +8,7 @@ const lawyers = {
             Abogado experto, con más de diez años de experiencia en litigios constitucionales, mercantiles, civiles, penales, laborales, seguros y reaseguros, financiero y bancario, bursátil, administrativo. 
             Otras áreas de practica: derecho de empresa, derecho de familia, derecho aduanero, derecho aeronáutico, derecho marítimo, derecho de la FIFA.   
             `,
-            img: ""
+            img: "/img/abo2.jpg"
         },
         {
             id: 2,

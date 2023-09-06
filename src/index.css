@@ -253,12 +253,15 @@ svg:hover {
 
 .staff-li {
     width: 300px;
-    padding: 2rem;
-    margin: 3rem 2rem;
+    height: 400px;
     list-style: none;
+    margin: 3rem 2rem;
+    position: relative;
     box-shadow: 0 0 20px var(--shadowa);
     color: var(--letter-one);
     transition: transform 0.5s ease;
+    position: relative;
+    overflow: hidden;
 }
 
 .staff-li:hover {
@@ -266,16 +269,36 @@ svg:hover {
 }
 
 .staff-div1 {
-    height: 14rem;
+    height: 400px;
     width: 100%;
-    border-radius: 20px;
-    overflow: hidden;
-    margin-bottom: 2rem;
 }
 
 .staff-img {
     width: 100%;
-    height: 14rem;
+    height: 100%;
+}
+
+.staff-div2 {
+    width: 100%;
+    height: 100%;
+    padding: 2rem 1rem;
+    background-color: rgba(0, 0, 0, 0.644);
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: activeInfo 1s 0.1s forwards;
+
+    opacity: 0; 
+    transform: translateY(-10px); 
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+    animation: fadeInUp 0.3s ease 0.3s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .staff-h2{
@@ -510,10 +533,13 @@ hr {
         }
     }
 
+    .staff {
+        display: flex;
+        justify-content: center;
+    }
+
     .staff-ul {
         display: grid;
-        justify-content: center;
-        align-items: flex-start;
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -600,11 +626,15 @@ hr {
         }
     }
 
+    .staff {
+        display: flex;
+        justify-content: center;
+    }
+
     .staff-ul {
         display: grid;
-        justify-content: center;
-        align-items: flex-start;
         grid-template-columns: repeat(3, 1fr);
+        gap: 5rem;
     }
 
     .serv-ul {
