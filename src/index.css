@@ -2,7 +2,7 @@
     --bacKground-web: #001489;
     --shadowa: #050A30;
     --letter-one: #E1E1E1;
-    --letter-two: #FFDF00;
+    --letter-two: #f2bc0c;
     --aun-no-se-wd: #F8B117;
 }
 
@@ -97,8 +97,8 @@ a:hover {
 }
 
 .nav-img {
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
 }
 
 svg {

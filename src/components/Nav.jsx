@@ -12,7 +12,7 @@ const Nav = () => {
     return (
     <div className="nav">
         <div className="nav-div1">
-            <img className="nav-img" src={"/img/logo-alt.jpg"} />
+            <img className="nav-img" src={"/img/alti.jpeg"} />
             <h1 className="nav-h1"><Link className="nav-h1" to="/">Altiorem Abogados</Link></h1>
         </div>
 

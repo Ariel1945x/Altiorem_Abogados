@@ -14,13 +14,13 @@ const lawyers = {
             id: 2,
             name: "Abg. Lady Paola Cachago Cachago",
             info: `Abogada por la Universidad de las Américas y mediadora certificada por el Centro de Arbitraje y Mediación de los Niños, Niñas, Adolescentes, Familia y la Comunidad (NAFCOM), socia fundadora de Altiorem Abogados, con 8 años de experiencia en litigios de tránsito, violencia de género, familia, societario, y altos conocimientos en derecho notarial. `,
-            img: ""
+            img: "/img/abo4.jpg"
         },
         {
             id: 3,
             name: "Abg. María Belén Dávila Velastegui ",
             info: `Abogada por la Universidad de las Américas con cuatro diplomados por la Universidad Politécnica de Colombia con 7 años de experiencia en la practica de Derecho mercantil y sociedades comerciales, derecho aduanero, copras públicas, derecho administrativo, violencia de género, derecho penal, derecho laboral y derechos humanos.`,
-            img: ""
+            img: "/img/abo3.jpg"
         },
         {
             id: 4,

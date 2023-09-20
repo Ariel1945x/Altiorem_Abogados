@@ -6,7 +6,7 @@ const Footer = () => {
         <section className="foot">
             <hr />
             <h2 className="foot-h2">Altiorem Abogados</h2>
-            <img className="foot-img" src={"/img/logo-alt.jpg"} />
+            <img className="foot-img" src={"/img/alti.jpeg"} />
             <p className="foot-p">Siempre cerca de usted...</p>
             <ul className="foot-ul">
                 <li><a target="_blank" href="https://www.instagram.com/altiorem_abogados/">
