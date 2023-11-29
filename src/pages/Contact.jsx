@@ -1,3 +1,4 @@
+import InputsOfcontact from "../components/InputsOfContact"
 
 const Contact = () => {
     return (
@@ -46,6 +47,8 @@ const Contact = () => {
                     </a>
                 </div>
             </div>
+
+            <InputsOfcontact/>
         </section>
     )
 }

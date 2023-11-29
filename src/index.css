@@ -149,7 +149,6 @@ svg:hover {
     margin-top: 5rem;
 }
 
-
 /* Home */
 
 .home {
@@ -431,6 +430,51 @@ svg:hover {
     margin-top: 3rem;
 }
 
+.inputs {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--letter-one);
+    margin-top: 7rem;
+}
+
+.inputs-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.inputs-input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-left: 1px solid var(--aun-no-se-wd);
+    border-bottom: 1px solid var(--aun-no-se-wd);
+    margin: 1rem 0 .5rem;
+    padding: 0.2rem .5rem;
+    font-size: 15px;
+    background-color: var(--bacKground-web);
+    color: var(--letter-one);
+    cursor: pointer;
+}
+
+.inputs-input:valid {
+    background-color: var(--bacKground-web);
+}
+
+.inputs-btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2rem;
+    background-color: var(--bacKground-web);
+    box-shadow: 0 0 5px 2px var(--shadowa);
+    color: var(--letter-two);
+    font-size: 18px;
+    cursor: pointer;
+}
 
 /* footer */
 
@@ -440,7 +484,7 @@ svg:hover {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-top: 10rem;
+    margin-top:6rem;
     margin-bottom: 1rem;
 }
 
@@ -649,5 +693,48 @@ hr {
         width: 800px;
         height:400px;
         margin-top: 5rem;
+    }
+
+    .inputs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--letter-one);
+        margin-top: 7rem;
+    }
+    
+    .inputs-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 800px;
+    }
+    
+    .inputs-input {
+        width: 100%;
+        outline: none;
+        border: none;
+        border-left: 1px solid var(--aun-no-se-wd);
+        border-bottom: 1px solid var(--aun-no-se-wd);
+        margin: 1rem 0 .5rem;
+        padding: 0.2rem .5rem;
+        font-size: 15px;
+        background-color: var(--bacKground-web);
+        color: var(--letter-one);
+        cursor: pointer;
+    }
+    
+    .inputs-btn {
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 2rem;
+        background-color: var(--bacKground-web);
+        box-shadow: 0 0 5px 2px var(--shadowa);
+        color: var(--letter-two);
+        font-size: 18px;
+        cursor: pointer;
     }
 }
